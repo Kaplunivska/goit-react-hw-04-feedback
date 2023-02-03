@@ -1,0 +1,26 @@
+.list {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    cursor: pointer;
+  
+    padding: 5px 20px;
+  
+    color: grey;
+    font-size: 14px;
+    text-transform: capitalize;
+  
+    background: none;
+    border-radius: 5px;
+    border: 1px solid DarkSeaGreen;
+  
+    transition: background 250ms ease-in-out, color 250ms ease-in-out;
+  }
+  
+  .button:hover {
+    color: white;
+  
+    background-color: DarkSeaGreen;
+  }
