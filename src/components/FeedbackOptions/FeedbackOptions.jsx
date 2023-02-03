@@ -12,7 +12,7 @@ export default function FeedbackOptions({ options, onLeaveFeedback }) {
               type="button"
               className={css.button}
               onClick={() => {
-                onLeaveFeedback(key);
+                onLeaveFeedback({ type: key });
               }}
             >
               {key}
